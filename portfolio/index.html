@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">HOME</a></li>
+                <li><a href="#what-i-do">SKILLS</a></li>
+                <li><a href="#container">PROFICIENCY</a></li>
+                <li><a href="#project">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="intro" class="intro">
+        <img src="images/profile-pic(3).png" alt="Profile Picture" style="float:right; height: 300px; width: 300px; padding-right: 80px;" >
+        <h1>Hi, I'm Santhosh Babu L R 👋</h1>
+        <p>Aspiring Software Developer | Proficient in HTML, CSS, JAVASCRIPT,JAVA, PYTHON | BSc in Computer Science | Certified in Front End Development & Python | Experienced in Stock Market Price Prediction Projects.</p>
+        <div class="social-links">
+            <a href="https://github.com/Sandysanthosh42" target="_blank"><img src="icons/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/santhosh342/" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+            <a href="mailto:developersanthosh24@gmail.com"><img src="icons/gmail.png" alt="Gmail"></a>
+        </div>
+        <div class="buttons">
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="Santhoshbabu Software Developer - Resume 1.pdf" class="btn">See My Resume</a>
+        </div>
+    </section>
+    <section id="what-i-do" class="what-i-do">
+        <img src="images/coding.gif" alt="Coding">
+        <div class="details">
+            <h2>What I do</h2>
+            <p>Crazy Full Stack Developer who wants to explore every tech stack.</p>
+            <div class="skills">
+                <img src="icons/html-5.png" alt="HTML5">
+                <img src="icons/css-3.png" alt="CSS3">
+                <img src="icons/javascript.png" alt="JavaScript">
+                <img src="icons/java.png" alt="Java">
+                <img src="icons/python.png" alt="Python">
+            </div>
+            <ul class="services">
+                <li>Create Interactive User Interfaces for Web and Mobile Apps.</li>
+                <li>Build Progressive Web Applications (PWA) in Standard and SPA Frameworks.</li>
+                <li>Integrate Third-Party Services like Firebase, AWS, or Digital Ocean.</li>
+            </ul>
+        </div>
+    </section>
+    <div id="container" class="container">
+        <div class="proficiency-section">
+            <h2>Proficiency</h2>
+            <div class="skill">
+                <p>HTML / CSS</p>
+                <div class="progress-bar">
+                    <div class="progress frontend"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JAVASCRIPT</p>
+                <div class="progress-bar">
+                    <div class="progress backend"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>PYTHON / JAVA</p>
+                <div class="progress-bar">
+                    <div class="progress programming"></div>
+                </div>
+            </div>
+        </div>
+        <div class="illustration">
+            <img src="images/proficiency image.jfif" alt="Proficiency Image">
+        </div>
+    </div>
+    <section id="project" class="project">
+        <div class="projects-container">
+            <h1>Open Source Projects</h1>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h2>Stock Price Prediction</h2>
+                    <p>Python + Streamlit</p>
+                    <p class="tech-stack">Pyhton</p>
+                    <p class="stars">⭐ 750</p>
+                </div>
+                <div class="project-card">
+                    <h2>portfolio</h2>
+                    <p>Html + Css + java</p>
+                    <p class="tech-stack">Html,Css</p>
+                    <p class="stars">⭐ 722</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via email or by filling out the form below.</p>
+        <form action="mailto:developersanthosh24@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/Sandysanthosh42" target="_blank"><img src="icons/github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/santhosh342/" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+                <a href="mailto:developersanthosh24@gmail.com"><img src="icons/gmail.png" alt="Gmail"></a>
+            </div>
+            <p>&copy; 2024 Santhosh Babu L R. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
